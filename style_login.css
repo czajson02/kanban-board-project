@@ -1,0 +1,135 @@
+body{
+    background-image: url(./pics/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 170%;
+    color: snow;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+header, footer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form{
+    border: solid 3px snow;
+    background-color: rgba(0, 0, 0, 60%);
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.form table{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.form table,tr,td{
+    padding: 10px;
+}
+input[type="text"], input[type="password"]{
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+input[type="submit"], #rejestruj, #loguj{
+    width: 120px;
+    height: 35px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 12px;
+}
+input[type="submit"]:hover, #rejestruj:hover, #loguj:hover{
+    width: 120px;
+    height: 35px;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: darkorange;
+    transition: 0.3s;
+    margin-top: 12px;
+}
+.logowanie{
+    font-size: 28px;
+}
+a{
+    display: inline-block;
+    line-height: 21px;
+    width: 130px;
+    height: 25px;
+    font-size: 24px;
+    border: none;
+    background: snow;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:visited{
+    display: inline-block;
+    line-height: 21px;
+    width: 130px;
+    height: 25px;
+    font-size: 24px;
+    border: none;
+    background: snow;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:active{
+    display: inline-block;
+    line-height: 21px;
+    width: 130px;
+    height: 25px;
+    font-size: 24px;
+    border: none;
+    background: snow;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover{
+    cursor: pointer;
+    background-color: darkorange;
+    transition: 0.3s;
+}
+a:visited:hover{
+    cursor: pointer;
+    background-color: darkorange;
+    transition: 0.3s;
+}
+a:active:hover{
+    cursor: pointer;
+    background-color: darkorange;
+    transition: 0.3s;
+}
+.login{
+    font-weight: 600;
+    color: orange;
+}
