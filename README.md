@@ -1,5 +1,5 @@
 # kanban-board-project
-A kanban board is a project management tool designed to help visualize work, limit work-in-progress, and maximize efficiency.
+Kanban board is a project management tool designed to help visualize work, limit work-in-progress, and maximize efficiency.
 
 <hr>
 <h3>Overview:</h3>
