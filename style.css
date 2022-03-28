@@ -292,3 +292,72 @@ select > option{
     margin: auto;
     width: 100%;
 }
+@media only screen and (max-width: 1262px){
+    body{
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .mid{
+        display: none;
+    }
+    header > .left, .right{
+        width: 50%;
+    }
+    .check{
+        display: none;
+    }
+    main > .mid1{
+        margin-top: 45px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+    }
+    .board-column{
+        width: 46%;
+        padding: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        min-height: 80vh;
+        overflow-y: auto;
+        border: solid 1px black;
+        background-color: rgba(0,0,0,40%);
+        color: white;
+    }
+}
+@media only screen and (max-width: 662px){
+    .mid{
+        display: none;
+    }
+    header > .left, .right{
+        width: 50%;
+    }
+    main > .mid1{
+        margin-top: 45px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+    }
+    .board-column{
+        width: 92%;
+        padding: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        min-height: 80vh;
+        overflow-y: auto;
+        border: solid 1px black;
+        background-color: rgba(0,0,0,40%);
+        color: white;
+    }
+}

@@ -133,3 +133,43 @@ a:active:hover{
     font-weight: 600;
     color: orange;
 }
+@media only screen and (max-width: 1222px){
+    body{
+        background-repeat: no-repeat;
+        background-size: 300%;
+    }
+    .form{
+        border: solid 3px snow;
+        background-color: rgba(0, 0, 0, 60%);
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 50px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-repeat: no-repeat;
+        background-size: 400%;
+    }
+    .form{
+        border: solid 3px snow;
+        background-color: rgba(0, 0, 0, 60%);
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 50px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+}
