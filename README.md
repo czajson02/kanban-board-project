@@ -28,3 +28,4 @@ Kanban board is a project management tool designed to help visualize work, limit
 <hr>
 
 <h5>Note: <i>It's my first programming project and I am aware of its inperfections</i>.</h5>
+<h5>Updated CSS</h5>
